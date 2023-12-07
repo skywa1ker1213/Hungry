@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+}
+
+.start__parent {
+  height: 90vh;
+}
+
+.start__title {
+  font-size: 50px;
+}
+
+.start__child2 {
+  position: relative;
+}
+
+.start__img1 {
+  position: absolute;
+  top: 0;
+  right: -90px;
+}
+
+.start__img2 {
+  position: absolute;
+  bottom: -40px;
+  left: 95px;
+}
+
+.nav__btn:hover {
+  background: none !important;
+  color: white;
+  border: 2px solid white;
+}
+
+.nav__link {
+  transition: 0.2s linear;
+}
+.nav__link:hover {
+  text-shadow: 0px 0px 10px white;
+  transition: 0.2s linear;
+}
+
+.features__child1 {
+  position: relative;
+}
+
+.features-img-child1 {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.features-img-child2 {
+  width: 400px;
+  position: absolute;
+  left: 125px;
+  bottom: 70px;
+  z-index: -1;
+}
+
+.food {
+  background: #1F98F0;
+}
+.food h1 {
+  color: white;
+}
+.food button {
+  color: #1F98F0;
+  background: white;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s linear;
+}
+.food button:hover {
+  color: white;
+  background: none;
+  border: 2px solid white;
+  box-shadow: 0px 0px 10px white;
+  transition: 0.2s linear;
+}
+
+footer {
+  color: white;
+  background: #03101A;
+}
+
+.footer__input input {
+  width: 200px;
+  height: 40px;
+}
+.footer__input button {
+  color: white;
+  background: #1F98F0;
+  width: 100px;
+  height: 40px;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

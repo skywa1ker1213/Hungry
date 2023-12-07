@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 300px 200px;
+    background: rgb(0, 99, 15);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.grid-item{
+    background: rgb(105, 100, 100);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
